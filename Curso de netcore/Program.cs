@@ -6,7 +6,10 @@ namespace Curso_de_netcore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int year = 10;
+            Console.WriteLine("Hola Alex! {0}", year);
+
+            Console.ReadLine();
         }
     }
 }
